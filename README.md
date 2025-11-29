@@ -68,7 +68,7 @@
 - **기간:** 2024.05.09 ~ 2024.06.26  
 - **역할:** 팀장 / 백엔드  
 - **기술:** Spring Boot, PostgreSQL, React  
-- **GitHub:** [ReadForce Repository](#)  
+- **GitHub:** [ReadForce Repository](https://github.com/LeeHaNeal/ReadForce)
 
 **소개:**  
 AI 기반 뉴스·문학 콘텐츠를 분석해 초/중/고급 문해력 문제를 자동 생성하고  
