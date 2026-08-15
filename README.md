@@ -80,13 +80,3 @@ AI 기반 문해력 진단 웹 서비스
 </td>
 </tr>
 </table>
-
-<br>
-
-<div align="center">
-
-
-
-
-
-</div>
