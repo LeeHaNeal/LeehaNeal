@@ -1,109 +1,74 @@
 <div align="center">
 
-# 👋 Hi, I'm **이하늘 (Lee HaNeal)**
-### 백엔드 중심 풀스택 개발자 | 문제 해결 & 안정적 시스템 구현
+# 이하늘 · Lee HaNeal
 
----
+**문제를 찾아서 끝까지 고치는 백엔드 중심 풀스택 개발자**
 
-### 📫 Contact
-📧 **harull817@naver.com**  
-🌐 **GitHub:** [https://github.com/LeeHaNeal](https://github.com/LeeHaNeal)
-
----
-
-### 🔥 Tech Stack (백엔드 중심)
+[![Portfolio](https://img.shields.io/badge/Portfolio-12161C?style=flat-square&logo=vercel&logoColor=5EE1C4)](https://leehaneal.github.io/my-portfolio)
+[![Email](https://img.shields.io/badge/Email-12161C?style=flat-square&logo=gmail&logoColor=F2A93B)](mailto:harull817@naver.com)
 
 </div>
 
----
+<br>
 
-## 🛠 Backend
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
-![SpringBoot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![JPA](https://img.shields.io/badge/JPA-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
-![MyBatis](https://img.shields.io/badge/MyBatis-1F262A?style=for-the-badge)
+### 지금 이런 걸 봅니다
 
-## 💾 Database
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+Java · Spring Boot로 서버를 설계하고, React로 그 API를 소비하는 화면까지 직접 만듭니다.
+디버깅할 때 우회로보다는 원인을 찾는 쪽을 택합니다.
 
-## 🧰 DevOps & Tools
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![JUnit](https://img.shields.io/badge/JUnit-25A162?style=for-the-badge)
+<br>
 
-## 🎨 Frontend (보조)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+### Stack
 
----
+| | |
+|---|---|
+| **Backend** | `Java` `Spring Boot` `Spring Security` `JPA` `MyBatis` |
+| **Database** | `Oracle` `PostgreSQL` `MySQL` `MariaDB` `Redis` |
+| **Frontend** | `React` `JavaScript` `axios` `React Router` |
+| **Infra** | `AWS` `Linux` `Git` |
 
-<div align="center">
+<br>
 
-# 🚀 Projects
+### Fixed, not worked around
 
-</div>
+| Project | Before | After |
+|---|---|---|
+| ReadForce | Gemini 응답이 마크다운·제어문자로 깨져 파싱 실패 | 전처리 + 복구 fallback으로 안정화 |
+| 칼로몽 | 프론트 계산값(실수)·백엔드 필드(정수) 타입 불일치 | 요청 포맷 재정의로 저장 안정성 확보 |
+| 칼로몽 | 챌린지 완료해도 포인트 미반영 | 완료 처리 · 점수 누적 로직 구현 |
+| ReadForce | 회원 현황 확인할 관리자 화면 없음 | 조회·상태변경·삭제 관리자 페이지 구현 |
 
----
+<br>
 
-## 🟩 Calomong (칼로몽)
-- **기간:** 2025.04.16 ~ 2025.05.09  
-- **역할:** 팀장 / 전체 백엔드  
-- **기술:** Spring Boot, Oracle, React  
+### Projects
 
-**소개:**  
-섭취·소모 칼로리를 기록하고, 챌린지·랭킹 기능을 제공하는 건강관리 서비스
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**주요 성과**
-- 챌린지 & 랭킹 기능 구현 → 일일 사용자 50명 이상 동시 접속 문제 해결
-- Oracle DB 설계 → 회원/챌린지/랭킹 데이터 정규화 및 트랜잭션 안정화
-- 백엔드 통합 QA → 기능 오류 0건 달성
+**🟩 [Calomong](https://github.com/LeeHaNeal/Calomong)**
+개인 맞춤형 건강관리 웹 서비스
+`Spring Boot` `Oracle` `React`
+2025.04 – 2025.05 · 팀장/백엔드 (챌린지·운동·커뮤니티 화면 병행)
 
----
+</td>
+<td width="50%" valign="top">
 
-## 🟦 ReadForce
-- **기간:** 2024.05.09 ~ 2024.06.26  
-- **역할:** 팀장 / 백엔드  
-- **기술:** Spring Boot, PostgreSQL, React  
-- **GitHub:** [ReadForce Repository](https://github.com/LeeHaNeal/ReadForce)
+**🟦 [ReadForce](https://github.com/LeeHaNeal/ReadForce)**
+AI 기반 문해력 진단 웹 서비스
+`Spring Boot` `PostgreSQL` `Gemini API`
+2025.05 – 2025.06 · 팀장/백엔드 (챌린지·관리자 화면 병행)
+🏆 부트캠프 8팀 중 우수상
 
-**소개:**  
-AI 기반 뉴스·문학 콘텐츠를 분석해 초/중/고급 문해력 문제를 자동 생성하고  
-점수를 랭킹 시스템으로 반영하는 교육 플랫폼
+</td>
+</tr>
+</table>
 
-**주요 성과**
-- Gemini API 연동 → 뉴스/문학 문제 및 정답 자동 생성
-- JSON 응답 불규칙성 처리 → 안정적 데이터 파싱 구현
-- 난이도별 점수 자동 배점 및 포인트 → 랭킹 시스템 설계
-- 팀장 역할로 기획·일정·품질관리 전체 조율
-
----
+<br>
 
 <div align="center">
 
-# 🔍 Problem Solving Highlights
-
-</div>
-
-- API JSON 유효성 검사 및 파싱 오류 해결 → 안정적 데이터 처리 구현  
-- 데이터 정규화 및 트랜잭션 설계 → DB 무결성 확보  
-- 난이도별 자동 점수 배정 → 비즈니스 로직 구현 역량 강화  
-- 대용량 요청 처리 테스트 → 서버 안정성 확보  
-
----
-
-<div align="center">
-
-# 📊 GitHub Stats
-
-![HaNeal's GitHub stats](https://github-readme-stats.vercel.app/api?username=LeeHaNeal&show_icons=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LeeHaNeal&layout=compact&theme=tokyonight)
-
----
-
-# 👀 Profile Views
-![Visitor Count](https://komarev.com/ghpvc/?username=LeeHaNeal&color=blue)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=LeeHaNeal&show_icons=true&theme=tokyonight&hide_border=true&bg_color=12161C&title_color=5EE1C4&icon_color=F2A93B&text_color=E7E5DE)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LeeHaNeal&layout=compact&theme=tokyonight&hide_border=true&bg_color=12161C&title_color=5EE1C4&text_color=E7E5DE)
 
 </div>
