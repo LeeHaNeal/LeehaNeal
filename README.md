@@ -85,7 +85,7 @@ AI 기반 문해력 진단 웹 서비스
 
 <div align="center">
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LeeHaNeal&layout=compact&theme=tokyonight&hide_border=true&bg_color=12161C&title_color=5EE1C4&text_color=E7E5DE)
+
 
 
 
