@@ -6,6 +6,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-12161C?style=flat-square&logo=vercel&logoColor=5EE1C4)](https://leehaneal.github.io/my-portfolio)
 [![Email](https://img.shields.io/badge/Email-12161C?style=flat-square&logo=gmail&logoColor=F2A93B)](mailto:harull817@naver.com)
+[![GitHub](https://img.shields.io/badge/GitHub-12161C?style=flat-square&logo=github&logoColor=E7E5DE)](https://github.com/LeeHaNeal)
 
 </div>
 
@@ -13,19 +14,35 @@
 
 ### 지금 이런 걸 봅니다
 
-Java · Spring Boot로 서버를 설계하고, React로 그 API를 소비하는 화면까지 직접 만듭니다.
+Java · Spring Boot로 서버를 설계하고, React로 그 API를 소비하는 화면까지 직접 만듭니다.  
 디버깅할 때 우회로보다는 원인을 찾는 쪽을 택합니다.
 
 <br>
 
 ### Stack
 
-| | |
-|---|---|
-| **Backend** | `Java` `Spring Boot` `Spring Security` `JPA` `MyBatis` |
-| **Database** | `Oracle` `PostgreSQL` `MySQL` `MariaDB` `Redis` |
-| **Frontend** | `React` `JavaScript` `axios` `React Router` |
-| **Infra** | `AWS` `Linux` `Git` |
+<div align="center">
+
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
+![SpringBoot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![SpringSecurity](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![JPA](https://img.shields.io/badge/JPA-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+![MyBatis](https://img.shields.io/badge/MyBatis-1F262A?style=for-the-badge)
+
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+</div>
 
 <br>
 
@@ -46,18 +63,18 @@ Java · Spring Boot로 서버를 설계하고, React로 그 API를 소비하는 
 <tr>
 <td width="50%" valign="top">
 
-**🟩 [Calomong](https://github.com/LeeHaNeal/Calomong)**
-개인 맞춤형 건강관리 웹 서비스
-`Spring Boot` `Oracle` `React`
+**🟩 [Calomong](https://github.com/LeeHaNeal/Calomong)**  
+개인 맞춤형 건강관리 웹 서비스  
+`Spring Boot` `Oracle` `React`  
 2025.04 – 2025.05 · 팀장/백엔드 (챌린지·운동·커뮤니티 화면 병행)
 
 </td>
 <td width="50%" valign="top">
 
-**🟦 [ReadForce](https://github.com/LeeHaNeal/ReadForce)**
-AI 기반 문해력 진단 웹 서비스
-`Spring Boot` `PostgreSQL` `Gemini API`
-2025.05 – 2025.06 · 팀장/백엔드 (챌린지·관리자 화면 병행)
+**🟦 [ReadForce](https://github.com/LeeHaNeal/ReadForce)**  
+AI 기반 문해력 진단 웹 서비스  
+`Spring Boot` `PostgreSQL` `Gemini API`  
+2025.05 – 2025.06 · 팀장/백엔드 (챌린지·관리자 화면 병행)  
 🏆 부트캠프 8팀 중 우수상
 
 </td>
@@ -70,5 +87,7 @@ AI 기반 문해력 진단 웹 서비스
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=LeeHaNeal&show_icons=true&theme=tokyonight&hide_border=true&bg_color=12161C&title_color=5EE1C4&icon_color=F2A93B&text_color=E7E5DE)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LeeHaNeal&layout=compact&theme=tokyonight&hide_border=true&bg_color=12161C&title_color=5EE1C4&text_color=E7E5DE)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=LeeHaNeal&theme=tokyonight&hide_border=true&background=12161C&stroke=2A313C&ring=5EE1C4&fire=F2A93B&currStreakLabel=E7E5DE)
 
 </div>
