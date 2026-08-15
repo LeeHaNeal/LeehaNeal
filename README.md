@@ -85,9 +85,8 @@ AI 기반 문해력 진단 웹 서비스
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=LeeHaNeal&show_icons=true&theme=tokyonight&hide_border=true&bg_color=12161C&title_color=5EE1C4&icon_color=F2A93B&text_color=E7E5DE)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LeeHaNeal&layout=compact&theme=tokyonight&hide_border=true&bg_color=12161C&title_color=5EE1C4&text_color=E7E5DE)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=LeeHaNeal&theme=tokyonight&hide_border=true&background=12161C&stroke=2A313C&ring=5EE1C4&fire=F2A93B&currStreakLabel=E7E5DE)
+
 
 </div>
