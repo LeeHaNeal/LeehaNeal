@@ -14,7 +14,7 @@
 
 ### 지금 이런 걸 봅니다
 
-Java · Spring Boot로 서버를 설계하고, React로 그 API를 소비하는 화면까지 직접 만듭니다.  
+Java · Spring Boot로 서버를 설계하고, React로 그 API를 소비하는 화면까지 직접 만듭니다.
 디버깅할 때 우회로보다는 원인을 찾는 쪽을 택합니다.
 
 <br>
@@ -47,6 +47,7 @@ Java · Spring Boot로 서버를 설계하고, React로 그 API를 소비하는 
 
 | Project | Before | After |
 |---|---|---|
+| 올마켓 | 결제 승인 시점에 재고를 차감하는 구조라 동시 주문 시 마지막 재고 오버셀 위험 | 조건부 원자적 업데이트(재고 >= 수량)로 부족 시 트랜잭션 롤백·결제 실패 처리 |
 | ReadForce | Gemini 응답이 마크다운·제어문자로 깨져 파싱 실패 | 전처리 + 복구 fallback으로 안정화 |
 | 칼로몽 | 프론트 계산값(실수)·백엔드 필드(정수) 타입 불일치 | 요청 포맷 재정의로 저장 안정성 확보 |
 | 칼로몽 | 챌린지 완료해도 포인트 미반영 | 완료 처리 · 점수 누적 로직 구현 |
@@ -61,18 +62,18 @@ Java · Spring Boot로 서버를 설계하고, React로 그 API를 소비하는 
 <tr>
 <td width="50%" valign="top">
 
-**🟩 [Calomong](https://github.com/LeeHaNeal/Calomong)**  
-개인 맞춤형 건강관리 웹 서비스  
-`Spring Boot` `Oracle` `React`  
+**🟩 [Calomong](https://github.com/LeeHaNeal/Calomong)**
+개인 맞춤형 건강관리 웹 서비스
+`Spring Boot` `Oracle` `React`
 2025.04 – 2025.05 · 팀장/백엔드 (챌린지·운동·커뮤니티 화면 병행)
 
 </td>
 <td width="50%" valign="top">
 
-**🟦 [ReadForce](https://github.com/LeeHaNeal/ReadForce)**  
-AI 기반 문해력 진단 웹 서비스  
-`Spring Boot` `PostgreSQL` `Gemini API`  
-2025.05 – 2025.06 · 팀장/백엔드 (챌린지·관리자 화면 병행)  
+**🟦 [ReadForce](https://github.com/LeeHaNeal/ReadForce)**
+AI 기반 문해력 진단 웹 서비스
+`Spring Boot` `PostgreSQL` `Gemini API`
+2025.05 – 2025.06 · 팀장/백엔드 (챌린지·관리자 화면 병행)
 🏆 부트캠프 8팀 중 우수상
 
 </td>
@@ -80,14 +81,20 @@ AI 기반 문해력 진단 웹 서비스
 <tr>
 <td width="50%" valign="top">
 
-**🟨 [선착순 티켓 예매 시스템](https://github.com/LeeHaNeal/ticket-reservation)**  
-Redis 기반 동시성 제어 티켓 예매 백엔드 · React 프론트  
-`Spring Boot` `Spring Security` `MySQL` `Redis` `React`  
-2026.08 – 2026.09 · 개인 프로젝트 (동시성 제어·캐싱·JWT 인증)  
+**🟨 [선착순 티켓 예매 시스템](https://github.com/LeeHaNeal/ticket-reservation)**
+Redis 기반 동시성 제어 티켓 예매 백엔드 · React 프론트
+`Spring Boot` `Spring Security` `MySQL` `Redis` `React`
+2026.08 – 2026.09 · 개인 프로젝트 (동시성 제어·캐싱·JWT 인증)
 동시 요청 1,000건 중 재고 100개 정확히 소진 검증 (오버셀 0건)
 
 </td>
 <td width="50%" valign="top">
+
+**🟪 [올마켓 (결제 연동 주문 시스템)](https://github.com/LeeHaNeal/order-system)**
+Provider 패턴으로 mock/실PG 전환 가능한 이커머스 주문 시스템
+`Next.js 15` `TypeScript` `Prisma` `PostgreSQL(Neon)` `토스페이먼츠`
+2026.09 · 개인 프로젝트 (기획·설계·구현·배포 전체 수행)
+🔗 [라이브 데모](https://ohmarket-store.vercel.app)
 
 </td>
 </tr>
