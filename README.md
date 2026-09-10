@@ -8,6 +8,10 @@
 [![Email](https://img.shields.io/badge/Email-12161C?style=flat-square&logo=gmail&logoColor=F2A93B)](mailto:harull817@naver.com)
 [![GitHub](https://img.shields.io/badge/GitHub-12161C?style=flat-square&logo=github&logoColor=E7E5DE)](https://github.com/LeeHaNeal)
 
+<br>
+
+![typing svg](https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=16&duration=2800&pause=1200&color=5EE1C4&center=true&vCenter=true&width=560&lines=Fixed%2C+not+worked+around.;Java+%C2%B7+Spring+Boot+%C2%B7+React;WebSocket+%C2%B7+Redis+Pub%2FSub+%C2%B7+PostgreSQL)
+
 </div>
 
 <br>
@@ -15,7 +19,7 @@
 ### 지금 이런 걸 봅니다
 
 Java · Spring Boot로 서버를 설계하고, React로 그 API를 소비하는 화면까지 직접 만듭니다.
-디버깅할 때 우회로보다는 원인을 찾는 쪽을 택합니다.
+REST API뿐 아니라 WebSocket 같은 실시간 통신까지 다루며, 디버깅할 때 우회로보다는 원인을 찾는 쪽을 택합니다.
 
 <br>
 
@@ -33,11 +37,28 @@ Java · Spring Boot로 서버를 설계하고, React로 그 API를 소비하는 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Render](https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white)
+![GitHubActions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+</div>
+
+<br>
+
+### GitHub
+
+<div align="center">
+
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=LeeHaNeal&show_icons=true&count_private=true&hide_border=true&theme=transparent&title_color=5EE1C4&icon_color=F2A93B&text_color=E7E5DE" />
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeeHaNeal&layout=compact&hide_border=true&theme=transparent&title_color=5EE1C4&text_color=E7E5DE&langs_count=8" />
+
+<img src="https://streak-stats.demolab.com/?user=LeeHaNeal&hide_border=true&background=00000000&stroke=1C232E&ring=5EE1C4&fire=F2A93B&currStreakLabel=5EE1C4&currStreakNum=E7E5DE&sideNums=E7E5DE&sideLabels=8B93A1&dates=8B93A1" />
 
 </div>
 
@@ -47,6 +68,7 @@ Java · Spring Boot로 서버를 설계하고, React로 그 API를 소비하는 
 
 | Project | Before | After |
 |---|---|---|
+| 채팅 시스템 | AWS 프리티어(RAM 1GB)에서 컨테이너 4개 동시 기동 시 메모리 부족으로 인스턴스 응답 불능 | PostgreSQL/Redis를 관리형 서비스(Neon/Upstash)로 분리, Render로 재배포해 상시 무료 운영 확보 |
 | 올마켓 | 결제 승인 시점에 재고를 차감하는 구조라 동시 주문 시 마지막 재고 오버셀 위험 | 조건부 원자적 업데이트(재고 >= 수량)로 부족 시 트랜잭션 롤백·결제 실패 처리 |
 | ReadForce | Gemini 응답이 마크다운·제어문자로 깨져 파싱 실패 | 전처리 + 복구 fallback으로 안정화 |
 | 칼로몽 | 프론트 계산값(실수)·백엔드 필드(정수) 타입 불일치 | 요청 포맷 재정의로 저장 안정성 확보 |
@@ -62,19 +84,20 @@ Java · Spring Boot로 서버를 설계하고, React로 그 API를 소비하는 
 <tr>
 <td width="50%" valign="top">
 
-**🟩 [Calomong](https://github.com/LeeHaNeal/Calomong)**
-개인 맞춤형 건강관리 웹 서비스
-`Spring Boot` `Oracle` `React`
-2025.04 – 2025.05 · 팀장/백엔드 (챌린지·운동·커뮤니티 화면 병행)
+**🟥 [실시간 룸 기반 채팅 시스템](https://github.com/LeeHaNeal/chat-room-system)**
+WebSocket·Redis Pub/Sub 기반 다중 서버 실시간 채팅
+`Spring Boot` `Spring WebSocket` `PostgreSQL(Neon)` `Redis(Upstash)` `React`
+2026.09 · 개인 프로젝트 (기획·설계·구현·배포 전체 수행)
+🔗 [라이브 데모](https://chat-room-system-frontend.onrender.com)
 
 </td>
 <td width="50%" valign="top">
 
-**🟦 [ReadForce](https://github.com/LeeHaNeal/ReadForce)**
-AI 기반 문해력 진단 웹 서비스
-`Spring Boot` `PostgreSQL` `Gemini API`
-2025.05 – 2025.06 · 팀장/백엔드 (챌린지·관리자 화면 병행)
-🏆 부트캠프 8팀 중 우수상
+**🟪 [올마켓 (결제 연동 주문 시스템)](https://github.com/LeeHaNeal/order-system)**
+Provider 패턴으로 mock/실PG 전환 가능한 이커머스 주문 시스템
+`Next.js 15` `TypeScript` `Prisma` `PostgreSQL(Neon)` `토스페이먼츠`
+2026.09 · 개인 프로젝트 (기획·설계·구현·배포 전체 수행)
+🔗 [라이브 데모](https://ohmarket-store.vercel.app)
 
 </td>
 </tr>
@@ -90,11 +113,24 @@ Redis 기반 동시성 제어 티켓 예매 백엔드 · React 프론트
 </td>
 <td width="50%" valign="top">
 
-**🟪 [올마켓 (결제 연동 주문 시스템)](https://github.com/LeeHaNeal/order-system)**
-Provider 패턴으로 mock/실PG 전환 가능한 이커머스 주문 시스템
-`Next.js 15` `TypeScript` `Prisma` `PostgreSQL(Neon)` `토스페이먼츠`
-2026.09 · 개인 프로젝트 (기획·설계·구현·배포 전체 수행)
-🔗 [라이브 데모](https://ohmarket-store.vercel.app)
+**🟦 [ReadForce](https://github.com/LeeHaNeal/ReadForce)**
+AI 기반 문해력 진단 웹 서비스
+`Spring Boot` `PostgreSQL` `Gemini API`
+2025.05 – 2025.06 · 팀장/백엔드 (챌린지·관리자 화면 병행)
+🏆 부트캠프 8팀 중 우수상
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**🟩 [Calomong](https://github.com/LeeHaNeal/Calomong)**
+개인 맞춤형 건강관리 웹 서비스
+`Spring Boot` `Oracle` `React`
+2025.04 – 2025.05 · 팀장/백엔드 (챌린지·운동·커뮤니티 화면 병행)
+
+</td>
+<td width="50%" valign="top">
 
 </td>
 </tr>
